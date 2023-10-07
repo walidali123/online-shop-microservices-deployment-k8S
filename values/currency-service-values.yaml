@@ -1,0 +1,11 @@
+appName: currencyservice
+appImage: gcr.io/google-samples/microservices-demo/currencyservice@sha256:bd0fa063169b5fab3461c2b21022714bf5c1429b25334e667700a41e5bd2ab30
+appVersion: v0.8.0
+appReplicas: 2
+containerPort: 7000
+containerEnvVars:
+  - name: PORT
+    value: "7000"
+
+serviceType: ClusterIP
+servicePort: 7000

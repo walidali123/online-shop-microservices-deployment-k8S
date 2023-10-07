@@ -1,0 +1,11 @@
+appName: shippingservice
+appImage: gcr.io/google-samples/microservices-demo/shippingservice@sha256:9fe197811cb01ba7087f8b9160eae6094864d56cd9d79af4d38f2d3d65bc4aac
+appVersion: v0.8.0
+appReplicas: 2
+containerPort: 50051
+containerEnvVars:
+  - name: PORT
+    value: "50051"
+
+serviceType: ClusterIP
+servicePort: 50051
