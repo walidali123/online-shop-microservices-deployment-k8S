@@ -3,7 +3,7 @@
 </p>
 
 
-![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Master/Release/badge.svg)
+![Continuous Integration]([https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Master/Release/badge.svg](https://github.com/nanuchi/microservices-demo/blob/master/src/frontend/static/icons/Hipster_HeroLogoCyan.svg))
 
 
 **Online Boutique** is a cloud-native microservices demo application.
